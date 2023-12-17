@@ -1,0 +1,12 @@
+.holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.content {
+  border-left: 1px solid rgb(194, 194, 194);
+  padding-left: 1rem;
+  margin: 0 1rem;
+}

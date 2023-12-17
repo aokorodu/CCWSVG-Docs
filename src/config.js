@@ -2,12 +2,12 @@ export const navConfig = {
   pages: [
     {
       title: "Intro",
-      link: "",
+      link: "/intro",
       subnav: [],
     },
     {
       title: "What's an SVG?",
-      link: "",
+      link: "/whatis",
       subnav: [],
     },
     {
@@ -80,29 +80,15 @@ export const navConfig = {
       subnav: [],
     },
     {
-      title: "Animation Intro",
+      title: "Animation",
       link: "",
-      subnav: [],
-    },
-    {
-      title: "CSS Animation",
-      link: "",
-      subnav: [],
-    },
-    {
-      title: "JavaScript Animation",
-      link: "",
-      subnav: [],
-    },
-    {
-      title: "SMIL Animation",
-      link: "",
-      subnav: [],
-    },
-    {
-      title: "SVG Sprites",
-      link: "",
-      subnav: [],
+      subnav: [
+        { title: "intro", link: "" },
+        { title: "css", link: "" },
+        { title: "javascript", link: "" },
+        { title: "SMIL", link: "" },
+        { title: "Sprites", link: "" },
+      ],
     },
     {
       title: "Aspect Ratio",
